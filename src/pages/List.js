@@ -1,9 +1,13 @@
 import React from 'react';
+import PostItem from '../components/PostItem';
 
 const List = () =>{
     return(
         <div>
-            <h1>리스트</h1>
+            <PostItem />
+            <PostItem />
+            <PostItem />
+            <PostItem />
         </div>
     );
 };
